@@ -1,0 +1,66 @@
+@media (max-width: 1024px) {
+    .popup {
+        padding: 5% 10%;
+        ;
+    }
+
+    .form_body .form_group.box_select {
+        flex-direction: column;
+    }
+
+    .form_body .form_group.box_select label {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .form_body .form_group.box_info input[type="text"] {
+        width: 100%;
+    }
+
+    .form_body .form_group .box-select {
+        width: 100%;
+    }
+
+    .form_body .form_group .box-select select {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .form_body .form_group.captcha .question {
+        display: block;
+    }
+
+    .form_body .form_group.upload {
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .form_body .form_group.upload .box_upload {
+        margin-bottom: 15px;
+
+    }
+
+    .form_body .form_group.upload label {
+        margin-left: 0;
+    }
+    .form_body .description {
+        line-height: 1.5;
+    }
+    .form_body .form_group.upload .text_small {
+        line-height: 1.5;
+    }
+    
+    .form_body .form_group.check_box p {
+        line-height: 1.5;
+    }
+    .box_bottom {
+         line-height: 1.5;
+    }
+    .form_body .form_group.captcha label {
+        margin-bottom: 15px;
+    }
+    .form_body .form_group.captcha {
+        align-items: flex-start;
+    }
+}

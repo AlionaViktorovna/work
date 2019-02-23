@@ -1,0 +1,11 @@
+.field {
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 598px;
+  top: 881px;
+  width: 350px;
+  height: 36px;
+  z-index: 73;
+}
