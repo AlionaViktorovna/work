@@ -41,7 +41,7 @@
 
     }
 
-    .form_body .form_group.upload label {
+    .form_body .form_group.upload .label {
         margin-left: 0;
     }
 
