@@ -44,22 +44,27 @@
     .form_body .form_group.upload label {
         margin-left: 0;
     }
+
     .form_body .description {
         line-height: 1.5;
     }
+
     .form_body .form_group.upload .text_small {
         line-height: 1.5;
     }
-    
+
     .form_body .form_group.check_box p {
         line-height: 1.5;
     }
+
     .box_bottom {
-         line-height: 1.5;
+        line-height: 1.5;
     }
+
     .form_body .form_group.captcha label {
         margin-bottom: 15px;
     }
+
     .form_body .form_group.captcha {
         align-items: flex-start;
     }

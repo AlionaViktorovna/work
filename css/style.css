@@ -237,7 +237,7 @@ input[type="checkbox"] {
     margin-bottom: 40px;
 }
 
-.form_body .form_group.check_box label {
+.form_body .form_group.check_box .label {
     cursor: pointer;
 }
 
