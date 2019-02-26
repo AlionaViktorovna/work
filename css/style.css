@@ -18,7 +18,10 @@
 #wrapper {
     position: relative;
     width: 100%;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .bgWrapper {
@@ -52,19 +55,13 @@
 
 /* popup */
 .popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background: #000;
     padding: 75px 130px 80px;
     max-width: 994px;
     z-index: 1;
     color: #fff;
-    max-height: 90vh;
-    width: 90%;
-    overflow: auto;
-
+    width: 100%;
+    margin: 5% 10%;
 }
 
 .form_head {
